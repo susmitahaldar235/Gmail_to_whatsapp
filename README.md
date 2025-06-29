@@ -23,3 +23,12 @@ This Python project connects to your Gmail inbox, fetches unread emails, and sen
 - Twilio WhatsApp Sandbox enabled
 - Required Python libraries: `google-auth`, `google-auth-oauthlib`, `google-api-python-client`, `twilio`, `schedule`
 
+
+## Usage
+The script will open a browser on the first run to authorize Gmail API access.
+
+It checks for new unread emails every minute by default.
+
+New email notifications are sent via WhatsApp.
+
+Emails are marked as read after successful notification.
